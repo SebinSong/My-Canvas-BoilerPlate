@@ -1,0 +1,41 @@
+{
+  "name": "my-canvas-boilerplate",
+  "version": "1.0.0",
+  "description": "Canvas Experiment Playground",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --env development",
+    "build": "webpack --env production"
+  },
+  "author": "Sebin Song",
+  "license": "MIT",
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.1",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
